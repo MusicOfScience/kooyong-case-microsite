@@ -1,0 +1,18 @@
+:root{
+  --teal:#21a1a8;      /* Teal shimmer */
+  --teal-dark:#17777c; /* Darker teal for hover/contrast */
+  --gold:#b79a32;      /* Gold reflective accents */
+  --ink:#1f2937;       /* Neutral dark text */
+  --bg:#ffffff;        /* White background */
+  --muted:#f6f7f8;     /* Soft grey */
+}
+
+html, body { background: var(--bg); color: var(--ink); }
+.stApp { background: var(--bg); }
+h1,h2,h3 { color: var(--teal-dark) !important; }
+.stButton>button {
+  background: var(--teal) !important; border:none !important; color:#fff !important;
+}
+.stButton>button:hover { background: var(--teal-dark) !important; }
+.block-container { padding-top: 1.5rem; }
+hr { border-top: 2px solid var(--muted) !important; }
